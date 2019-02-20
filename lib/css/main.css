@@ -1,0 +1,37 @@
+/*TODO: Whole CSS*/
+body {
+    margin: 0;
+}
+.translate_tbl {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100vw;
+}
+  
+.translate_tbl td, .translate_tbl th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 50vw;
+}
+  
+.translate_tbl tr:nth-child(even){background-color: white;}
+  
+.translate_tbl tr:hover {background-color: white;}
+  
+.translate_tbl th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #12233f;
+    color: white;
+}
+
+.translate_tbl textarea {
+    width: 50vw;
+}
+
+.submit_100 {
+    width: 100vw;
+    background-color: #12233f;  
+    color: #ffffff;
+}
